@@ -1,0 +1,35 @@
+.box{
+	width: 400px;
+	height: 400px;
+	background-image: url(inages/s.i.jpg);
+	background-size: cover;
+	margin: auto;
+	position: relative;
+}
+.kisu-akta{
+	padding: 3px;
+	margin: auto;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	opacity: 0;
+	transition: .04s;
+	border: 1px solid green;	
+}
+.box:hover .kisu-akta{
+	opacity: 1;
+}
+.kisu-akta h2{
+	color: #ffffff;
+	font-size: 30px;
+	margin-left: 50px;	
+}
+.kisu-akta p{
+	color: #ffffff;
+	font-size: 20px;
+}
